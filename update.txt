@@ -1,1 +1,1 @@
-#5.1#**更新公告[12:33 2/9]：修复了检查更新时因为网速较慢导致错误的bug，可按esc强制跳过检查更新**%https://www.lanzous.com/i96kimf%
+#5.2#**更新公告[12:44 2/14]：找出了有些机型不能签到的bug，现已支持win7和win10的系统。**%https://www.lanzous.com/i9cb6wf%
