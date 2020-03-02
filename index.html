@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
+<!-- saved from url=(0037)https://1571394785.github.io/qwer123/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
 <title>自动签到官网</title>
     <style>
         body {
 	background-image: url(access/timg.jpg);
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	text-align: center;
     .biaoti {
 ; 
@@ -15,12 +15,54 @@
 }
     
 }
+    .download {
+	font-family: "手书体";
+	font-size: 36px;
+	color: #6F9;
+}
     </style>
-</head>
-<body class="标题">
+<script>//remove baidu search ad
+var _countAA = 0
+function doBBBd(){
+    var alla = document.getElementsByTagName('a')
+    for(var i = 0; i < alla.length; i++){
+        if(/baidu.com\/(baidu.php\?url=|adrc.php\?t)/.test(alla[i].href)){
+            var _temp = alla[i].parentElement, loop = 0
+            while(loop < 5){
+                _temp = _temp.parentElement
+                loop++
+                if(_temp.parentElement.id == 'content_left'){
+                    _temp.remove()
+                    break
+                }
+            }
+        }
+    }
+    
+    if(_countAA++ < 20){
+        setTimeout(doBBBd, 500)
+    }
+    
+}
+doBBBd()
+document.addEventListener('keyup', function(){_countAA-=10;doBBBd()}, false)
+document.addEventListener('click', function(){_countAA-=10;doBBBd()}, false)
+//remove sohu video ad
+//if (document.URL.indexOf("tv.sohu.com") >= 0){
+//    if (document.cookie.indexOf("fee_status=true")==-1){document.cookie='fee_status=true'};
+//}
+//remove 56.com video ad
+//if (document.URL.indexOf("56.com") >= 0){
+//    if (document.cookie.indexOf("fee_status=true")==-1){document.cookie='fee_status=true'};
+//}
+    </script></head>
 
-<h1><strong><font color ="red" > <font size="72">自动签到官网</font></font></strong></h1>
-<p><font color="#339966">目前还在调试......</font></p>
-</body>
-</html>
 
+<h1><strong><font color="red"> <font size="72">自动签到官网</font></font></strong></h1>
+<p><font color="red">都怪某个中华局域网太强了，把我检查更新的渠道给封了。</font></p>
+<p><font color="red">所以还在使用6.1版本的自动签到可能不能更新了</font></p>
+<p><font color="red">就看接下来如果这个域名不屏蔽了，还是可以继续检查更新的</font></p>
+<p><font color="red">暂时懒得做维护了......</font></p>
+<p><font size="36"><font face="黑体"> 
+<a href="https://www.lanzous.com/b00z7gpfe">点击查看自动签到所有历史版本</a></font></font></font></p>
+<p class="download">访问密码：0000</p>
